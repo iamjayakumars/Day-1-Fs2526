@@ -3,32 +3,58 @@
 
 <head>
     <title>Jay Web Page</title>
-    <style>
-        body {
-            background-color: lightblue;
-            margin: 20px;
-        }
-
-        h1 {
-            color: #3333cc;
-        }
-
-        p {
-            font-size: 16px;
-            color: #666666;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Hello, Jay!</h1>
-    <p>Welcome to your web page.</p>
-    <h2>Courses</h2>
-    <p>Web Programming</p>
-    <P>Web Programming - Wednesday Lab</P>
-    <P>Web Programming - Friday Lab</P>
-    <P>Web Programming - Tuesday Theory</P>
-    <p>Faculty Name: Prof. Jayakumar Sadhasivam</p>
+    <header>
+        <h1>Hello, Jay!</h1>
+        <p class="p1">
+            <center>Welcome to your web page.</center>
+        </p>
+        <hr>
+        <nav>
+            <a href="hello.html" target="_blank">Home</a> |
+            <a href="about.html" target="_blank">About</a> |
+            <a href="contact.html" target="_blank">Contact</a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <article>
+            <h2 class="p1 c1">Courses</h2>
+            <P class="p1">Course Details</P>
+            <ul type="square">
+                <li>Web Programming</li>
+                <ol reversed>
+                    <li>Web Programming - Wednesday Lab</li>
+                    <li>Web Programming - Friday Lab</li>
+                    <li>Web Programming - Tuesday Theory</li>
+                    <li>Faculty Name: Prof. Jayakumar Sadhasivam</li>
+                </ol>
+            </ul>
+        </article>
+        <article>
+
+
+
+            <p id="id1">image details</p>
+
+
+            <img src="Wall.jpg" alt="its my wallpaper" width="600" height="400">
+
+
+
+
+        </article>
+    </section>
+    <hr>
+    <footer>
+        <center>
+            <h4>Contact</h4>
+            <p class="p1">Email: jayakumars@vit.ac.in </p>
+        </center>
+    </footer>
 </body>
 
 </html>
